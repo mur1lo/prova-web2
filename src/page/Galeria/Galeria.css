@@ -1,0 +1,40 @@
+.pet-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.pet-count {
+    color: #666;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.pet-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.pet-item {
+    box-sizing: border-box;
+    min-width: 200px;
+    min-height: 180px;
+    background-color: rgb(233, 247, 233);
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px 0 0 0;
+}
+
+.pet-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    background-color: #d6e9ff;
+}
